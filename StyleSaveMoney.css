@@ -1,0 +1,76 @@
+/* C'est ici que je style mes contenaires */ /**/
+.flex-container0{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+}
+.flex-container01{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.flex-container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+/* C'est ici que je style mes boxs de manière générale */
+.flex-container0 > div {
+    width: auto;
+    margin: 10px;
+    /*text-align: center; Je pensais que ça allait être récrit mais non*/
+    line-height: 15px;
+    font-size: 15px;
+}
+.flex-container01 > div {
+    width: 100px;
+    padding-top: 12px;
+    text-align: center;
+    line-height: 15px;
+    font-size: 12px;
+}
+.flex-container1 > div {
+    text-align: left;
+    width: 330px;
+}
+/* C'est ici que je modifie chaque box comme je le désire*/
+.pense{
+    text-align: left;
+    font-weight: bold;
+    padding: 12px;
+}
+.demo{
+    padding: 12px;
+    text-align: right;
+    color: orange;
+    border: 3px solid orange;
+    border-radius: 10px;
+}
+/* Style de la partie 1 */
+.meufdroite{
+    float: right;
+}
+.p1gras{
+    font-size: 120px;
+    margin-right: 600px;
+}
+.freedemo{
+    margin-right: 60px;
+    margin-left: 30px;
+    border: 3px solid orange;
+    border-radius: 10px;
+    background-color: orange;
+    color: white;
+    padding: 12px;
+    font-size: 30px;
+}
+.p1gris{
+    color: gray;
+    margin-right: 650px;
+    font-size: 30px;
+}
+.p1gris1{
+    color: gray;
+    font-size: 30px;
+}
