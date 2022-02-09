@@ -15,11 +15,24 @@
     flex-direction: row;
     justify-content: left;
 }
+.flex-logo{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+}
+.plan{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    gap: 70px;
+}
 /* C'est ici que je style mes boxs de manière générale */
 .flex-container0 > div {
     width: auto;
     margin: 10px;
-    /*text-align: center; Je pensais que ça allait être récrit mais non*/
+    /*text-align: center; Je pensais que ça allait être réécrit mais non*/
     line-height: 15px;
     font-size: 15px;
 }
@@ -33,6 +46,16 @@
 .flex-container1 > div {
     text-align: left;
     width: 330px;
+}
+.flex-logo > div {
+    width: 300px;
+    filter: grayscale(100%);
+    opacity: 0.4;
+}
+.plan > div {
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 15px;
 }
 /* C'est ici que je modifie chaque box comme je le désire*/
 .pense{
@@ -73,4 +96,52 @@
 .p1gris1{
     color: gray;
     font-size: 30px;
+}
+/* Style de la partie 2 */
+.graphique{
+    background-color: orange; /* Je sais que je dois pas simplement mettre une couleur mais je ne sais pas comment faire les formes du site (pas encore) */
+    padding-left: 150px;
+    padding-top: 50px;
+}
+/* Style de la partie 3 */
+.cuisine{
+    float: right;
+}
+.learn{
+    font-size: 30px;
+    color: orange;
+}
+/* Style de la partie 4 */
+.titreplan{
+    font-size: 50px;
+    font-weight: bold;
+}
+.detailplan{
+    font-size: 30px;
+}
+.p4gris{
+    color: gray;
+}
+.p4gris:first-child{
+    color: black;
+    font-weight: bold;
+}
+.get0{
+    border: 3px solid orange;
+    border-radius: 15px;
+    padding: 12px;
+    color: orange;
+    font-size: 30px;
+}
+.get1{
+    background-color: orange;
+    border-radius: 15px;
+    padding: 12px;
+    color: white;
+    font-size: 30px;
+}
+.p4gras{
+    font-size: 120px;
+    font-weight: bold;
+    margin-left: 80px;
 }
