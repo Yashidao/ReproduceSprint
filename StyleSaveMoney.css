@@ -28,6 +28,13 @@
     justify-content: center;
     gap: 70px;
 }
+.page5{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: -50px;
+}
 /* C'est ici que je style mes boxs de manière générale */
 .flex-container0 > div {
     width: auto;
@@ -57,6 +64,9 @@
     border: 1px solid gray;
     border-radius: 15px;
 }
+.page5 > div {
+    background-color: rgb(255, 114, 53);
+}
 /* C'est ici que je modifie chaque box comme je le désire*/
 .pense{
     text-align: left;
@@ -66,8 +76,8 @@
 .demo{
     padding: 12px;
     text-align: right;
-    color: orange;
-    border: 3px solid orange;
+    color: rgb(255, 114, 53);
+    border: 3px solid rgb(255, 114, 53);
     border-radius: 10px;
 }
 /* Style de la partie 1 */
@@ -81,9 +91,9 @@
 .freedemo{
     margin-right: 60px;
     margin-left: 30px;
-    border: 3px solid orange;
+    border: 3px solid rgb(255, 114, 53);
     border-radius: 10px;
-    background-color: orange;
+    background-color: rgb(255, 114, 53);
     color: white;
     padding: 12px;
     font-size: 30px;
@@ -99,7 +109,7 @@
 }
 /* Style de la partie 2 */
 .graphique{
-    background-color: orange; /* Je sais que je dois pas simplement mettre une couleur mais je ne sais pas comment faire les formes du site (pas encore) */
+    background-color: rgb(255, 114, 53); /* Je sais que je dois pas simplement mettre une couleur mais je ne sais pas comment faire les formes du site (pas encore) */
     padding-left: 150px;
     padding-top: 50px;
 }
@@ -109,7 +119,7 @@
 }
 .learn{
     font-size: 30px;
-    color: orange;
+    color: rgb(255, 114, 53);
 }
 /* Style de la partie 4 */
 .titreplan{
@@ -127,14 +137,14 @@
     font-weight: bold;
 }
 .get0{
-    border: 3px solid orange;
+    border: 3px solid rgb(255, 114, 53);
     border-radius: 15px;
     padding: 12px;
-    color: orange;
+    color: rgb(255, 114, 53);
     font-size: 30px;
 }
 .get1{
-    background-color: orange;
+    background-color: rgb(255, 114, 53);
     border-radius: 15px;
     padding: 12px;
     color: white;
@@ -145,3 +155,35 @@
     font-weight: bold;
     margin-left: 80px;
 }
+/* Style de la partie 5 */
+.happy{
+    margin: 10px;
+}
+.imgbox{
+    position: relative;
+}
+.textedansimage{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+}
+.p5grasblanc{
+    font-size: 80px;
+    color: white;
+    width: 800px;
+    margin-left: 25%;
+}
+.p5grandblanc{
+    font-size: 40px;
+    color: white;
+}
+.textedansimage{
+    background-color: white;
+    color: rgb(255, 114, 53);
+    border-radius: 15px;
+    padding: 12px;
+}
+
+/* Faire une recherche pour le id */
