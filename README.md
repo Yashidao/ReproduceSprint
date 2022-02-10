@@ -9,3 +9,7 @@ Je suis le seul :(
 ## Quand et où?
 
 Février 2022 à Charleroi chez BeCode
+
+## Lien
+
+à définir
