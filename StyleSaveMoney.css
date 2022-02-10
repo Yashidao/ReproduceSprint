@@ -35,6 +35,12 @@
     text-align: center;
     gap: -50px;
 }
+.endmenu{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+}
 /* C'est ici que je style mes boxs de manière générale */
 .flex-container0 > div {
     width: auto;
@@ -63,9 +69,18 @@
     text-align: center;
     border: 1px solid gray;
     border-radius: 15px;
+    box-shadow: 3px 3px 3px gray;
+
+}
+.plan > div:hover{ /* quand on passe dessus */
+    box-shadow: none;
 }
 .page5 > div {
     background-color: rgb(255, 114, 53);
+}
+.endmenu > div {
+    width: 300px;
+    text-align: left;
 }
 /* C'est ici que je modifie chaque box comme je le désire*/
 .pense{
@@ -185,5 +200,69 @@
     border-radius: 15px;
     padding: 12px;
 }
-
+/* Style de la partie 6 */
+.links{
+    text-align: left;
+}
+.legal{
+    text-align: left;
+}
+.newsletter{
+    text-align: left;
+    width: 300px;
+}
+.email{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding-left: 10px;
+}
+.emailbtn{
+    font-size: 12px;
+    text-align: center;
+    background-color: rgb(255, 114, 53);
+    border-radius: 15px;
+    padding: 5px;
+    color: white;
+}
+.email > div{
+    width: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+.endmenu{
+    font-weight: bold;
+}
+.over{
+    color: gray;
+    opacity: 0.6;
+    font-size: 20px;
+}
+.sell{
+    color: gray;
+    opacity: 0.6;
+    font-size: 10px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+}
+.minilogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100px;
+}
+.terms{
+    width: 200px;
+}
+.contact{
+    width: 400px;
+}
+.copy{
+    width: 800px;
+}
 /* Faire une recherche pour le id */
